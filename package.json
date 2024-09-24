@@ -72,11 +72,11 @@
 		"test": "npm run vencord & npm run start"
 	},
 	"author": {
-		"name": "aiko-chan-ai",
-		"email": "Aiko@shiroko.onmicrosoft.com"
+		"name": "Forbirdden",
+		"email": ""
 	},
 	"repository": {
-		"url": "https://github.com/aiko-chan-ai/DiscordBotClient/"
+		"url": "https://github.com/Forbirdden/DiscordBotClient-OldWindows/"
 	},
 	"license": "ISC",
 	"productName": "Discord Bot Client"
