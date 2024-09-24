@@ -5,10 +5,17 @@ on:
     types: [released]
 
 jobs:
-  publish:
-    runs-on: ubuntu-latest
+
+  publish_on_win:
+    runs-on: windows-latest
     steps:
-      - uses: vedantmgoyal2009/winget-releaser@v2
-        with:
-          identifier: aiko-chan-ai.DiscordBotClient
-          token: ${{ secrets.WINGET_TOKEN }}
+    - uses: actions/checkout@v2       
+    - uses: actions/setup-node@master
+      with:
+        node-version: 14
+    - name: install dependencies
+      run: npm install
+    - name: publish
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: npm run publish
