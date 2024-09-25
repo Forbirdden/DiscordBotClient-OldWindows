@@ -31,7 +31,7 @@
 		"appId": "DiscordBotClient",
 		"productName": "DiscordBotClient",
 		"artifactName": "${productName}-${os}-${arch}.${ext}",
-		"copyright": "Copyright © 2024 @elysia.dev",
+		"copyright": "Copyright © 2024 Forbirdden, original by @elysia.dev",
 		"mac": {
 			"category": "public.app-category.social-networking",
 			"target": [
