@@ -18,18 +18,13 @@ And I kid you not, I've never had these many users before!? <a:aqua:857071030689
 <a:mikupaylak:863287070407786516> If you had fun, please leave a star on the [repo](https://github.com/aiko-chan-ai/DiscordBotClient) <:github:889092230063734795>
 It really motivates me to work on the project! <:elylove:1065888090549407785>`,
 				color: 16750296,
-				timestamp: '2022-12-31T17:00:00+00:00',
+				timestamp: '2022-11-29T16:56:00.000Z',
 				author: {
-					name: 'Word From Developer',
-					icon_url:
-						'https://cdn.discordapp.com/attachments/878276279105884210/1071796241765240862/LINE_nachonekodayo_005.png',
-					proxy_icon_url:
-						'https://media.discordapp.net/attachments/878276279105884210/1071796241765240862/LINE_nachonekodayo_005.png',
+					name: 'Foreword',
+					icon_url: 'https://i.imgur.com/ThXsjjS.png',
 				},
 				thumbnail: {
 					url: 'https://cdn.discordapp.com/avatars/1056491867375673424/93fb88f6b8c0a2a33c437d0fff4c6625.png',
-					proxy_url:
-						'https://images-ext-2.discordapp.net/external/BbiJ0GLoefkW4PlPBsmxh7GfKALUE2XI2Ax7fFLCIo4/https/cdn.discordapp.com/avatars/1056491867375673424/93fb88f6b8c0a2a33c437d0fff4c6625.png',
 					width: 128,
 					height: 128,
 				},
@@ -43,7 +38,7 @@ It really motivates me to work on the project! <:elylove:1065888090549407785>`,
 		pinned: false,
 		mention_everyone: false,
 		tts: false,
-		timestamp: '2023-01-01T12:00:00.000000+00:00',
+		timestamp: new Date().toISOString(),
 		edited_timestamp: null,
 		flags: 16,
 		components: [
