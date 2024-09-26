@@ -493,7 +493,7 @@ function checkUpdate(force = false) {
 						`You are using the latest version (v${app.getVersion()})`,
 						undefined,
 						undefined,
-						"https://github.com/Forbirdden/DiscordBotClient-OldWindows/releases"
+						"https://github.com/Forbirdden/DiscordBotClient-OldWindows/releases/latest"
 					);
 				}
 			})
