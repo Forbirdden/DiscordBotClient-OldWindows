@@ -2,4 +2,4 @@
 
 **Discord Bot Client** allows you to use your bot, just like any other user account, except Friends and Groups. 
 
-This is fork of Elysia's DBC that runs perfectly on Windows 7/8/8.1. with all new bug fixes and etc.
+This is fork of Elysia's DBC that runs perfectly on Windows 7/8/8.1. with all new features and bug fixes
