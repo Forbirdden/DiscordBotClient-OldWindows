@@ -4,5 +4,4 @@
 
 This is fork of Elysia's DBC that runs perfectly on Windows 7/8/8.1 with all new features and bug fixes
 
-**[![Star History Chart](https://api.star-history.com/svg?repos=Forbirdden/DiscordBotClient-OldWindows&type=Date)](https://star-history.com/#Forbirdden/DiscordBotClient-OldWindows&Date)
-**
+[![Star History Chart](https://api.star-history.com/svg?repos=aiko-chan-ai/DiscordBotClient,Forbirdden/DiscordBotClient-OldWindows&type=Date)](https://star-history.com/#aiko-chan-ai/DiscordBotClient&Forbirdden/DiscordBotClient-OldWindows&Date)
