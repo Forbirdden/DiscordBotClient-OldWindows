@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        os: [windows-7 ]
+        os: [windows7 ]
 
     steps:
       - name: Check out Git repository
