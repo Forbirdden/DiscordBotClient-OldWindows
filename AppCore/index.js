@@ -77,7 +77,7 @@ function createTray(win, port) {
 			type: 'normal',
 			click: () =>
 				shell.openExternal(
-					'https://github.com/aiko-chan-ai/DiscordBotClient',
+					'https://github.com/Forbirdden/DiscordBotClient-OldWindows',
 				),
 		},
 		{
@@ -467,7 +467,7 @@ function checkUpdate(force = false) {
 	log.info("Checking for updates...");
 	return new Promise((resolve) => {
 		fetch(
-			"https://api.github.com/repos/aiko-chan-ai/DiscordBotClient/releases/latest"
+			"https://api.github.com/repos/Forbirdden/DiscordBotClient-OldWindows/releases/latest"
 		)
 			.then((res) => res.json())
 			.then((res) => {
@@ -477,7 +477,7 @@ function checkUpdate(force = false) {
 						`Electron v${app.getVersion()} - ${os.platform()}`,
 						undefined,
 						undefined,
-						"https://github.com/aiko-chan-ai/DiscordBotClient/releases"
+						"https://github.com/Forbirdden/DiscordBotClient-OldWindows/releases"
 					);
 				} else if (checkLatestVersion(res.tag_name, app.getVersion())) {
 					createNotification(
@@ -485,7 +485,7 @@ function checkUpdate(force = false) {
 						`Click here to open the update page`,
 						undefined,
 						undefined,
-						"https://github.com/aiko-chan-ai/DiscordBotClient/releases"
+						"https://github.com/Forbirdden/DiscordBotClient-OldWindows/releases"
 					);
 				} else if (force) {
 					createNotification(
@@ -493,7 +493,7 @@ function checkUpdate(force = false) {
 						`You are using the latest version (v${app.getVersion()})`,
 						undefined,
 						undefined,
-						"https://github.com/aiko-chan-ai/DiscordBotClient/releases"
+						"https://github.com/Forbirdden/DiscordBotClient-OldWindows/releases/latest/releases"
 					);
 				}
 			})
