@@ -1,6 +1,6 @@
 {
 	"name": "discord-bot-client",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"DiscordBuildVersion": 302556,
 	"description": "Discord Bot Client - login into discord with a bot token",
 	"main": "./AppCore/index.js",
