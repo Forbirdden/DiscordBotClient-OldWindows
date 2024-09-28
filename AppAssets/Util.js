@@ -56,6 +56,6 @@ module.exports = class Util {
 		return Buffer.from(token.split('.')[0], 'base64').toString();
 	}
 	static UserAgent() {
-		return `DiscordBot (https://github.com/aiko-chan-ai/DiscordBotClient, v${version})`;
+		return `DiscordBot (https://github.com/Forbirdden/DiscordBotClient-OldWindows, v${version})`;
 	}
 };
