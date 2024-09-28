@@ -77,7 +77,7 @@ function createTray(win, port) {
 			type: 'normal',
 			click: () =>
 				shell.openExternal(
-					'https://github.com/aiko-chan-ai/DiscordBotClient',
+					'https://github.com/Forbirdden/DiscordBotClient-OldWindows',
 				),
 		},
 		{
