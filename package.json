@@ -1,17 +1,17 @@
 {
 	"name": "discord-bot-client",
-	"version": "3.5.0",
+	"version": "2.0.0",
 	"DiscordBuildVersion": 331146,
 	"description": "Discord Bot Client - login into discord with a bot token",
 	"main": "./AppCore/index.js",
 	"testVencord": false,
 	"cacheAssets": false,
 	"dependencies": {
-		"discord-protos": "^1.0.5",
+		"discord-protos": "^1.0.4",
 		"electron-context-menu": "3.6.1",
 		"electron-log": "^4.4.8",
-		"electron-store": "^8.2.0",
-		"express": "^4.21.0",
+		"electron-store": "^8.1.0",
+		"express": "^4.18.1",
 		"lambert-server": "^1.2.12",
 		"lodash": "^4.17.21",
 		"morgan": "^1.10.0",
@@ -20,9 +20,9 @@
 		"request": "^2.88.2"
 	},
 	"devDependencies": {
-		"electron": "^32.1.2",
-		"electron-builder": "^25.0.5",
-		"jsdom": "^25.0.1"
+		"electron": "^15.5.7",
+		"electron-builder": "^23.6.0",
+		"jsdom": "^24.0.0"
 	},
 	"build": {
 		"files": [
@@ -73,11 +73,11 @@
 		"test": "npm run vencord & npm run start"
 	},
 	"author": {
-		"name": "aiko-chan-ai",
-		"email": "Aiko@shiroko.onmicrosoft.com"
+		"name": "Forbirdden",
+		"email": ""
 	},
 	"repository": {
-		"url": "https://github.com/aiko-chan-ai/DiscordBotClient/"
+		"url": "https://github.com/Forbirdden/DiscordBotClient-OldWindows/"
 	},
 	"license": "ISC",
 	"productName": "Discord Bot Client"
