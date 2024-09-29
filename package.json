@@ -31,20 +31,7 @@
 		"appId": "DiscordBotClient",
 		"productName": "DiscordBotClient",
 		"artifactName": "${productName}-${os}-${arch}.${ext}",
-		"copyright": "Copyright © 2024 Forbirdden, original by @elysia.dev",
-		"mac": {
-			"category": "public.app-category.social-networking",
-			"target": [
-				"dmg"
-			],
-			"icon": "./AppAssets/DiscordBotClient.png"
-		},
-		"linux": {
-			"target": [
-				"AppImage"
-			],
-			"icon": "./AppAssets/DiscordBotClient.png"
-		},
+		"copyright": "Copyright © 2024 Forbirdden, original by Elysia (aiko-chan-ai)",
 		"win": {
 			"target": [
 				{
@@ -60,9 +47,7 @@
 	},
 	"scripts": {
 		"start": "electron AppCore\\index.js",
-		"mac": "electron-builder -m",
 		"win": "electron-builder -w",
-		"linux": "electron-builder -l",
 		"build": "electron-builder",
 		"requirement": "npm install && npm run npmVencord",
 		"fetchLatestDiscordBuild": "electron scripts/findMainScript.js",
