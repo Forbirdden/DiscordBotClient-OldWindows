@@ -32,7 +32,7 @@ module.exports = function (app) {
 			);
 		} else {
 			fetch(
-				`https://raw.githubusercontent.com/Forbirdden/DiscordBotClient-OldWindows/dbirdc-v1/DiscordCore/index.html`,
+				`https://raw.githubusercontent.com/Forbirdden/DiscordBotClient-OldWindows/dbirdc-v2/DiscordCore/index.html`,
 			)
 				.then((r) => r.text())
 				.then((r) => res.send(r));
