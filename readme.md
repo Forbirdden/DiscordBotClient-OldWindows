@@ -1,5 +1,7 @@
 <h1 align="center">Discord Bot Client</h1>
 
+# DEVELOPMENT SUSPENDED INDEFINITELY
+
 > **Third party clients are discouraged and against the Discord TOS.**
 
 **Discord Bot Client** allows you to use your bot, just like any other user account, except Friends and Groups. 
