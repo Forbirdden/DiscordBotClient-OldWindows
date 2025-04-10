@@ -1,6 +1,4 @@
-<h1 align="center">Discord Bot Client</h1>
-
-# DEVELOPMENT SUSPENDED INDEFINITELY
+# This project is no longer being developed.
 
 > **Third party clients are discouraged and against the Discord TOS.**
 
